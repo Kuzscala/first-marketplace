@@ -1,33 +1,24 @@
 {
-  "name": "polygon-next",
-  "version": "0.1.0",
-  "private": true,
+  "name": "first-marketplace",
+  "version": "1.0.0",
+  "description": "A full stack digital marketplace running on Ethereum, built with \r Polygon, Next.js, Tailwind, Solidity, Hardhat, Ethers.js, and IPFS",
+  "main": "config.example.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "mocha"
   },
-  "dependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.2",
-    "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "@openzeppelin/contracts": "^4.2.0",
-    "axios": "^0.21.1",
-    "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.4.1",
-    "hardhat": "^2.4.1",
-    "ipfs-http-client": "50.1.2",
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "web3modal": "^1.9.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuzscala/first-marketplace.git"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "eslint": "7.29.0",
-    "eslint-config-next": "11.0.1",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuzscala/first-marketplace/issues"
+  },
+  "homepage": "https://github.com/Kuzscala/first-marketplace#readme"
 }
